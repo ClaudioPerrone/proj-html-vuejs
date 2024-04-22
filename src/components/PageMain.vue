@@ -106,62 +106,64 @@
             <h1>Popular Online Courses</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officia rerum quaerat consequatur explicabo quo culpa totam beatae, nesciunt sequi deserunt, autem corrupti. Officiis, libero magni. Fuga ea aut dignissimos!</p>
         </div>
-        <div class="row">
-            <div class="card col-4">
-                <div>
-                    img one
+        <div class="container">
+            <div class="row">
+                <div class="card col-4">
+                    <div>
+                        img one
+                    </div>
+                    <div class="d-flex">
+                        <h5>Android Developer</h5>
+                        <button>FREE</button>
+                    </div>
+                    <p>David Sanders</p>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, itaque. Earum dolorem optio natus pariatur aspernatur deleniti numquam cumque voluptates omnis saepe, recusandae ea dicta, totam mollitia veritatis similique repudiandae.</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <i class="fa-solid fa-user"></i>
+                        <p>1</p>
+                        <i class="fa-solid fa-tag"></i>
+                        <p>PROGRAMMING</p>
+                    </div>
                 </div>
-                <div class="d-flex">
-                    <h5>Android Developer</h5>
-                    <button>FREE</button>
+                <div class="card col-4">
+                    <div>
+                        img two
+                    </div>
+                    <div class="d-flex">
+                        <h5>Web Designing</h5>
+                        <button>FREE</button>
+                    </div>
+                    <p>Jennifer Powell</p>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, itaque. Earum dolorem optio natus pariatur aspernatur deleniti numquam cumque voluptates omnis saepe, recusandae ea dicta, totam mollitia veritatis similique repudiandae.</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <i class="fa-solid fa-user"></i>
+                        <p>1</p>
+                        <i class="fa-solid fa-tag"></i>
+                        <p>PROGRAMMING</p>
+                    </div>
                 </div>
-                <p>David Sanders</p>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, itaque. Earum dolorem optio natus pariatur aspernatur deleniti numquam cumque voluptates omnis saepe, recusandae ea dicta, totam mollitia veritatis similique repudiandae.</p>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <i class="fa-solid fa-user"></i>
-                    <p>1</p>
-                    <i class="fa-solid fa-tag"></i>
-                    <p>PROGRAMMING</p>
-                </div>
-            </div>
-            <div class="card col-4">
-                <div>
-                    img two
-                </div>
-                <div class="d-flex">
-                    <h5>Web Designing</h5>
-                    <button>FREE</button>
-                </div>
-                <p>Jennifer Powell</p>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, itaque. Earum dolorem optio natus pariatur aspernatur deleniti numquam cumque voluptates omnis saepe, recusandae ea dicta, totam mollitia veritatis similique repudiandae.</p>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <i class="fa-solid fa-user"></i>
-                    <p>1</p>
-                    <i class="fa-solid fa-tag"></i>
-                    <p>PROGRAMMING</p>
-                </div>
-            </div>
-            <div class="card col-4">
-                <div>
-                    img three
-                </div>
-                <div class="d-flex">
-                    <h5>Financial Modelling</h5>
-                    <button>$20</button>
-                </div>
-                <p>Edward Bowman</p>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, itaque. Earum dolorem optio natus pariatur aspernatur deleniti numquam cumque voluptates omnis saepe, recusandae ea dicta, totam mollitia veritatis similique repudiandae.</p>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <i class="fa-solid fa-user"></i>
-                    <p>1</p>
-                    <i class="fa-solid fa-tag"></i>
-                    <p>BUSINESS</p>
+                <div class="card col-4">
+                    <div>
+                        img three
+                    </div>
+                    <div class="d-flex">
+                        <h5>Financial Modelling</h5>
+                        <button>$20</button>
+                    </div>
+                    <p>Edward Bowman</p>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, itaque. Earum dolorem optio natus pariatur aspernatur deleniti numquam cumque voluptates omnis saepe, recusandae ea dicta, totam mollitia veritatis similique repudiandae.</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <i class="fa-solid fa-user"></i>
+                        <p>1</p>
+                        <i class="fa-solid fa-tag"></i>
+                        <p>BUSINESS</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -334,7 +336,7 @@
     </section>
 
     <section>
-        <div>
+        <div class="d-flex justify-content-between">
             img one
             img two
             img three
