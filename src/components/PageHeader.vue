@@ -10,7 +10,7 @@
             <div>
                 logo
             </div>
-            <div>
+            <nav>
                 <ul class="d-flex">
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">COURSES</a></li>
@@ -19,14 +19,14 @@
                     <li><a href="#">PAGES</a></li>
                     <li><a href="#">ELEMENTS</a></li>
                 </ul>
-            </div>
-            <div>
+            </nav>
+            <nav>
                 <ul class="d-flex justify-content-between">
                     <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     <li><a href=""><i class="fa-regular fa-clipboard"></i></a></li>
                     <li><a href=""><i class="fa-solid fa-bars"></i></a></li>
                 </ul>
-            </div>
+            </nav>
     
         </div>
 
