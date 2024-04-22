@@ -10,4 +10,6 @@
 
 <style scoped lang="scss">
 
+    @use '../style/partials/variables' as *;
+
 </style>

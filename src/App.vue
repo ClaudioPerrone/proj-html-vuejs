@@ -15,14 +15,17 @@
 </script>
 
 <template>
-
-    <PageHeader></PageHeader>
-
-    <main>
-        <PageMain></PageMain>
-    </main>
-
-    <PageFooter></PageFooter>
+    <div class="container">
+        
+        <PageHeader></PageHeader>
+    
+        <main>
+            <PageMain></PageMain>
+        </main>
+    
+        <PageFooter></PageFooter>
+        
+    </div>
 
 </template>
 
