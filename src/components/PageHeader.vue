@@ -53,6 +53,7 @@
 
     header {
         background-image: url("../assets/img/course-9-f-img.jpg");
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         height: 500px;

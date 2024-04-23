@@ -7,23 +7,29 @@
 <template>
     <div class="container">
         <section class="row">
-            <div class="ms-list d-flex justify-content-center">
-                <div>
+            <div class="col ms-list d-flex justify-content-center">
+                <div class="d-flex flex-column">
+                    <img src="../assets/img/h5-custom-icon-1.png" alt="">
                     Languages
                 </div>
-                <div>
+                <div class="d-flex flex-column">
+                    <img src="../assets/img/h5-custom-icon-2.png" alt="">
                     Software
                 </div>
-                <div>
+                <div class="d-flex flex-column">
+                    <img src="../assets/img/h5-custom-icon-3.png" alt="">
                     Business
                 </div>
-                <div>
+                <div class="d-flex flex-column">
+                    <img src="../assets/img/h5-custom-icon-4.png" alt="">
                     Chemistry
                 </div>
-                <div>
+                <div class="d-flex flex-column">
+                    <img src="../assets/img/h5-custom-icon-5.png" alt="">
                     Science
                 </div>
-                <div>
+                <div class="d-flex flex-column">
+                    <img src="../assets/img/h5-custom-icon-6.png" alt="">
                     DIY&Craft
                 </div>
             </div>
@@ -31,19 +37,18 @@
             <div>
                 <h1>The Trusted Name for In-Home Tutoring</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid minima repellendus ad inventore ipsum veniam repellat numquam ex voluptas voluptatum nulla perspiciatis labore eos et, magnam sapiente libero distinctio ratione.</p>
-                <h4>LEARN MORE</h4>
+                <h5>LEARN MORE</h5>
             </div>
         </section>
-        
+    </div>
+
+    <div class="container">
         <section class="row">
-            <div class="row">
                 <div class="col-12">
-                    placeholder photo
+                    <img src="../assets/img/h5-img-1.jpg" alt="">
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-6">
-                    img one
+                    <img src="../assets/img/h5-img-2.jpg" alt="">
                 </div>
                 <div class="col-6">
                     <h1>Empowering Children to Reach Their Potential</h1>
@@ -57,51 +62,66 @@
                             <h1>347</h1>
                             <h5>Events</h5>
                         </div>
-
+    
                     </div>
                 
                 </div>
-            </div>
         </section>
+    </div>
 
-        <section class="row">
-            <div class="d-flex justify-content-center">
-                rounded photo
-            </div>
-            <div class="text-center">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur incidunt asperiores accusantium error magnam inventore perferendis voluptate repellat doloribus est itaque, deserunt dolorem! Quas repellat exercitationem neque cupiditate, praesentium temporibus?</p>
-                <div>
-                    <h3>Joan Collins</h3>
-                    <h4>Student</h4>
-                </div>
-            </div>
-        </section>
-
-        <section class="row">
+    <div class="ms-planisphere">
+        <div class="container">
             <div class="row">
-                <div class="col-4">
-                    <ul class="ms-second-list">
-                        <li><a href="#"></a>What We Do</li>
-                        <li><a href="#"></a>Degree Programme</li>
-                        <li><a href="#"></a>Career Achievements</li>
-                        <li><a href="#"></a>Personal Management</li>
-                        <li><a href="#"></a>Steps To Success</li>
-                        <li><a href="#"></a>Kwowledge Transfer</li>
-                    </ul>
+                <div class="d-flex justify-content-center">
+                    <img src="../assets/img/testimonials-standard-2.png" alt="">
                 </div>
-                <div class="col-8">
-                    <h1>Learning Possibilities</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos dolores velit eaque fuga culpa iure autem, unde facere modi, facilis, nemo eligendi voluptatum tempora. Nesciunt suscipit asperiores adipisci corrupti aliquam.</p>
-                    <ul>
-                        <li><i class="fa-solid fa-check"></i>We enrich lives through learning,</li>
-                        <li><i class="fa-solid fa-check"></i>Maximising potenzial through individual attention.</li>
-                        <li><i class="fa-solid fa-check"></i>The trusted name for specialized training.</li>
-                        <li><i class="fa-solid fa-check"></i>People teach. People learn. This is where they connect.</li>
-                    </ul>
+                <div class="text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur incidunt asperiores accusantium error magnam inventore perferendis voluptate repellat doloribus est itaque, deserunt dolorem! Quas repellat exercitationem neque cupiditate, praesentium temporibus?</p>
+                    <div>
+                        <h3>Joan Collins</h3>
+                        <h4>Student</h4>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
 
+    <section class="container">
+        <div class="row">
+            <div class="col-4">
+                <ul class="ms-second-list">
+                    <li><a href="#"></a>What We Do</li>
+                    <li><a href="#"></a>Degree Programme</li>
+                    <li><a href="#"></a>Career Achievements</li>
+                    <li><a href="#"></a>Personal Management</li>
+                    <li><a href="#"></a>Steps To Success</li>
+                    <li><a href="#"></a>Kwowledge Transfer</li>
+                </ul>
+            </div>
+            <div class="col-8">
+                <h1>Learning Possibilities</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos dolores velit eaque fuga culpa iure autem, unde facere modi, facilis, nemo eligendi voluptatum tempora. Nesciunt suscipit asperiores adipisci corrupti aliquam.</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8">
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i>We enrich lives through learning,</li>
+                                <li><i class="fa-solid fa-check"></i>Maximising potenzial through individual attention.</li>
+                                <li><i class="fa-solid fa-check"></i>The trusted name for specialized training.</li>
+                                <li><i class="fa-solid fa-check"></i>People teach. People learn. This is where they connect.</li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <img src="../assets/img/h12-tabs-icon-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
         <section class="row">
             <div>
                 <h1>Popular Online Courses</h1>
@@ -111,7 +131,7 @@
                 <div class="row">
                     <div class="card col-4">
                         <div>
-                            img one
+                            <img src="../assets/img/course-5-f-img.jpg" alt="">
                         </div>
                         <div class="d-flex">
                             <h5>Android Developer</h5>
@@ -130,7 +150,7 @@
                     </div>
                     <div class="card col-4">
                         <div>
-                            img two
+                            <img src="../assets/img/course-6-f-img.jpg" alt="">
                         </div>
                         <div class="d-flex">
                             <h5>Web Designing</h5>
@@ -149,7 +169,7 @@
                     </div>
                     <div class="card col-4">
                         <div>
-                            img three
+                            <img src="../assets/img/course-12-f-img.jpg" alt="">
                         </div>
                         <div class="d-flex">
                             <h5>Financial Modelling</h5>
@@ -169,7 +189,10 @@
                 </div>
             </div>
         </section>
+    </div>
 
+
+    <div class="container">
         <section class="row d-flex justify-content-center">
             <table>
                 <thead>
@@ -181,18 +204,21 @@
                         </td>
                         <td>
                             <div>
+                                <img src="../assets/img/h5-custom-icon-7.png" alt="">
                                 <h2>Standard</h2>
                                 <h2>$12</h2>
                             </div>
                         </td>
                         <td>
                             <div>
+                                <img src="../assets/img/h5-custom-icon-8.png" alt="">
                                 <h2>Professional</h2>
                                 <h2>$59</h2>
                             </div>
                         </td>
                         <td>
                             <div>
+                                <img src="../assets/img/h5-custom-icon-9.png" alt="">
                                 <h2>Advanced</h2>
                                 <h2>$88</h2>
                             </div>
@@ -214,7 +240,7 @@
                             4
                         </td>
                     </tr>
-
+    
                     <tr>
                         <td>
                             Time
@@ -229,7 +255,7 @@
                             30 Days
                         </td>
                     </tr>
-
+    
                     <tr>
                         <td>
                             Web Designing
@@ -244,7 +270,7 @@
                             <i class="fa-solid fa-check"></i>
                         </td>
                     </tr>
-
+    
                     <tr>
                         <td>
                             Human-Centered Design
@@ -259,7 +285,7 @@
                             <i class="fa-solid fa-check"></i>
                         </td>
                     </tr>
-
+    
                     <tr>
                         <td>
                             Basic Marketing
@@ -274,7 +300,7 @@
                             <i class="fa-solid fa-check"></i>
                         </td>
                     </tr>
-
+    
                     <tr>
                         <td>
                             Python for Everybody
@@ -289,7 +315,7 @@
                             <i class="fa-solid fa-check"></i>
                         </td>
                     </tr>
-
+    
                     <tr>
                         <td>
                             Android Developer
@@ -304,7 +330,7 @@
                             <i class="fa-solid fa-check"></i>
                         </td>
                     </tr>
-
+    
                     <tr>
                         <td rowspan="2">
                             Business English
@@ -319,7 +345,7 @@
                             <i class="fa-solid fa-check"></i>
                         </td>
                     </tr>
-
+    
                     <tr>
                         <td>
                             <i class="fa-solid fa-xmark"></i>
@@ -333,18 +359,28 @@
                     </tr>
                 </tbody>
             </table>
-            
         </section>
+    </div>
 
+    <div class="container">
         <section class="row">
             <div class="d-flex justify-content-between">
-                img one
-                img two
-                img three
-                img four
+                <div>
+                    <img src="../assets/img/h5-client-5.png" alt="">
+                </div>
+                <div>
+                    <img src="../assets/img/h5-client-1.png" alt="">
+                </div>
+                <div>
+                  <img src="../assets/img/h5-client-2.png" alt="">  
+                </div>
+                <div>
+                    <img src="../assets/img/h5-client-1.png" alt="">
+                </div>
             </div>
         </section>
     </div>
+
 </template>
 
 <style scoped lang="scss">
@@ -365,6 +401,12 @@
         div {
             padding: 0 20px;
         }
+    }
+
+    .ms-planisphere {
+        background-image: url("../assets/img/h5-parallax-img-1.png");
+        background-position: center;
+        height: 500px;
     }
 
     .ms-second-list {
