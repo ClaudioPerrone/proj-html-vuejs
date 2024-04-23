@@ -332,7 +332,7 @@
                     </tr>
     
                     <tr>
-                        <td rowspan="2">
+                        <td>
                             Business English
                         </td>
                         <td>
@@ -345,16 +345,17 @@
                             <i class="fa-solid fa-check"></i>
                         </td>
                     </tr>
-    
+
                     <tr>
+                        <td></td>
                         <td>
-                            <i class="fa-solid fa-xmark"></i>
+                            <button><a href="#">GET IT NOW</a></button>
                         </td>
                         <td>
-                            <i class="fa-solid fa-xmark"></i>
+                            <button><a href="#">GET IT NOW</a></button>
                         </td>
                         <td>
-                            <i class="fa-solid fa-check"></i>
+                            <button><a href="#">GET IT NOW</a></button>
                         </td>
                     </tr>
                 </tbody>
@@ -395,6 +396,10 @@
             list-style: none;
         }
     }
+
+    a {
+            text-decoration: none;
+        }
 
     .ms-list {
 
