@@ -15,7 +15,6 @@
 </script>
 
 <template>
-    <div class="container">
         
         <PageHeader></PageHeader>
     
@@ -24,8 +23,6 @@
         </main>
     
         <PageFooter></PageFooter>
-        
-    </div>
 
 </template>
 
