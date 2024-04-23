@@ -8,6 +8,8 @@
 
 <!-- 
     THE TRUSTED NAME (1st SECTION)
+
+    DONE
  -->
     <section class="first-section container">
         <div class="row">
@@ -45,8 +47,12 @@
         </div>
     </section>
 
+ <!----------------------------------->
+    
 <!-- 
     ENPOWERING CHILDREN (2nd SECTION)
+
+    DONE
  -->
     <section class="second-section container">
         <div class="row py-5">
@@ -75,25 +81,30 @@
         </div>
     </section>
 
+ <!----------------------------------->
+
 <!-- 
-    THE TRUSTED NAME (3rd SECTION)
+    JOAN COLLINS (3rd SECTION)
  -->
-    <div class="ms-planisphere">
+    <section class="third-section ms-planisphere p-5">
         <div class="container">
-            <div class="row">
-                <div class="d-flex justify-content-center">
-                    <img src="../assets/img/testimonials-standard-2.png" alt="">
-                </div>
-                <div class="text-center">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur incidunt asperiores accusantium error magnam inventore perferendis voluptate repellat doloribus est itaque, deserunt dolorem! Quas repellat exercitationem neque cupiditate, praesentium temporibus?</p>
-                    <div>
+            <div class="row p-5">
+                <div class="col-12 py-5">
+                    <div class="d-flex justify-content-center py-1">
+                        <img src="../assets/img/testimonials-standard-2.png" alt="">
+                    </div>
+                    <div class="text-center px-5">
+                        <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur incidunt asperiores accusantium error magnam inventore perferendis voluptate repellat doloribus est itaque, deserunt dolorem! Quas repellat exercitationem neque cupiditate, praesentium temporibus?</p>
                         <h3>Joan Collins</h3>
                         <h4>Student</h4>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+ <!----------------------------------->
+
 <!-- 
     THE TRUSTED NAME (4th SECTION)
  -->
@@ -131,6 +142,9 @@
             </div>
         </div>
     </section>
+
+ <!----------------------------------->
+
 <!-- 
     THE TRUSTED NAME (5th SECTION)
  -->
@@ -203,6 +217,8 @@
             </div>
         </section>
     </div>
+
+ <!----------------------------------->
 
 <!-- 
     THE TRUSTED NAME (6th SECTION)
@@ -377,6 +393,9 @@
             </table>
         </section>
     </div>
+
+ <!----------------------------------->
+
 <!-- 
     THE TRUSTED NAME (7th SECTION)
  -->
@@ -454,7 +473,6 @@
                 width: 100%;
             }
         }
-
         .col-6 {
             img {
                 width: 95%;
@@ -475,7 +493,23 @@
         }
         }
     }
+/*-----------------------------------------
 
+    JOAN COLLINS (3rd SECTION)
+
+-----------------------------------------*/
+    .third-section {
+        &.ms-planisphere {
+            background-image: url("../assets/img/h5-parallax-img-1.png");
+            background-position: top;
+            height: 650px;
+        }
+
+        color: $color-white;
+
+
+
+    }
     .ms-list {
         div {
             padding: 0 20px;
@@ -485,15 +519,5 @@
     a {
             text-decoration: none;
         }
-
-    .ms-planisphere {
-        background-image: url("../assets/img/h5-parallax-img-1.png");
-        background-position: center;
-        height: 500px;
-    }
-
-    .ms-second-list {
-        /* AGGIUNGERE BORDO E BG-COLOR */
-    }
 
 </style>
