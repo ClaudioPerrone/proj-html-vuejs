@@ -5,8 +5,9 @@
 </script>
 
 <template>
+
 <!-- 
-        THE TRUSTED NAME
+    THE TRUSTED NAME (1st SECTION)
  -->
     <section class="first-section container">
         <div class="row">
@@ -44,33 +45,39 @@
         </div>
     </section>
 
-    <div class="container">
-        <section class="row">
-                <div class="col-12">
-                    <img src="../assets/img/h5-img-1.jpg" alt="">
-                </div>
-                <div class="col-6">
-                    <img src="../assets/img/h5-img-2.jpg" alt="">
-                </div>
-                <div class="col-6">
-                    <h1>Empowering Children to Reach Their Potential</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora amet aliquam ducimus quasi enim consequuntur mollitia? Iure iusto vitae cumque sed perferendis nisi, animi voluptatem. Vero possimus numquam ullam consectetur.</p>
-                    <div class="row">
+<!-- 
+    ENPOWERING CHILDREN (2nd SECTION)
+ -->
+    <section class="second-section container">
+        <div class="row py-5">
+            <div class="col-12">
+                <img src="../assets/img/h5-img-1.jpg" alt="">
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col-6 d-flex align-items-end pb-4">
+                <img src="../assets/img/h5-img-2.jpg" alt="">
+            </div>
+            <div class="col-6">
+                <h1>Empowering <br> Children to Reach <br> Their Potential</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora amet aliquam ducimus quasi enim consequuntur mollitia? Iure iusto vitae cumque sed perferendis nisi, animi voluptatem. Vero possimus numquam ullam consectetur.</p>
+                    <div class="row py-5">
                         <div class="col-6">
-                            <h1>168</h1>
+                            <h2>168</h2>
                             <h5>User Stories</h5>
                         </div>
                         <div class="col-6">
-                            <h1>347</h1>
+                            <h2>347</h2>
                             <h5>Events</h5>
                         </div>
-    
                     </div>
-                
-                </div>
-        </section>
-    </div>
+            </div>    
+        </div>
+    </section>
 
+<!-- 
+    THE TRUSTED NAME (3rd SECTION)
+ -->
     <div class="ms-planisphere">
         <div class="container">
             <div class="row">
@@ -87,7 +94,9 @@
             </div>
         </div>
     </div>
-
+<!-- 
+    THE TRUSTED NAME (4th SECTION)
+ -->
     <section class="container">
         <div class="row">
             <div class="col-4">
@@ -122,7 +131,9 @@
             </div>
         </div>
     </section>
-
+<!-- 
+    THE TRUSTED NAME (5th SECTION)
+ -->
     <div class="container">
         <section class="row">
             <div>
@@ -193,7 +204,9 @@
         </section>
     </div>
 
-
+<!-- 
+    THE TRUSTED NAME (6th SECTION)
+ -->
     <div class="container">
         <section class="row d-flex justify-content-center">
             <table>
@@ -364,7 +377,9 @@
             </table>
         </section>
     </div>
-
+<!-- 
+    THE TRUSTED NAME (7th SECTION)
+ -->
     <div class="container">
         <section class="row">
             <div class="d-flex justify-content-between">
@@ -392,19 +407,16 @@
 
 
     section {
-
         li {
             list-style: none;
         }
     }    
 /*-----------------------------------------
 
-            THE TRUSTED NAME
+    THE TRUSTED NAME (1st SECTION)
 
 -----------------------------------------*/
-
     .first-section {
-        
         .ms-card-skills {
             background-color: $color-blue-2;
             display: flex;
@@ -417,25 +429,53 @@
             img {
                 width: 50px;
             }
-            
             p {
                 font-weight: 500;
                 padding-top: 20px;
             }
         }
-
         h1 {
             font-size: 45px;
         }
-        
         h5 {
             color: $color-blue;
             font-size: 15px;
             font-weight: 700;
         }
-
     }
-    
+/*-----------------------------------------
+
+    EMPOWERING CHILDREN (2nd SECTION)
+
+-----------------------------------------*/
+    .second-section {
+        .col-12 {
+            img {
+                width: 100%;
+            }
+        }
+
+        .col-6 {
+            img {
+                width: 95%;
+            }
+
+        h1 {
+            font-size: 50px;
+        }
+        p {
+            font-size: 22px;
+        }
+        h2 {
+            font-size: 45px;
+            color: $color-blue;
+        }
+        h5 {
+            color: $color-blue;
+        }
+        }
+    }
+
     .ms-list {
         div {
             padding: 0 20px;
