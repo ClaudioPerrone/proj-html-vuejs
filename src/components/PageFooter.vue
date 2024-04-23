@@ -10,9 +10,10 @@
             <div class="row">
                 <div class="col-3">
                     <ul>
-                        <li>iAcademy</li>
+                        <img class="provaprova" src="../assets/img/logo-light.png" alt="">
                         <li><p>Providing Life Changing Experience Through Education. Class That Fit Your Busy Life. Closer to Home</p></li>
-
+                        <p><i class="fa-solid fa-phone"></i>1-677-124-44227</p>
+                        <p><i class="fa-regular fa-clock"></i>Mon - Sat 8.00 - 18.00</p>
                     </ul>
                 </div>
                 <div class="col-3">
@@ -48,7 +49,7 @@
                 </div>
                 <div class="col-3">
                     <h2>Flexible Learning</h2>
-                    img world
+                    <img src="../assets/img/footer-img-1.png" alt="">
                 </div>
             </div>
         </div>    
@@ -58,9 +59,9 @@
                 <p>Copyrights 2017 @Mikado Themes</p>
             </div>
             <div class="d-flex justify-content-between">
-                <p>CALL +44 300 303 '266'</p>
+                <p>CALL +44 300 303 0266</p>
                 <p>FOLLOW US</p>
-                <div class="d-flex justify-content-between">
+                <div>
                     <i class="fa-brands fa-twitter"></i>
                     <i class="fa-brands fa-instagram"></i>
                     <i class="fa-brands fa-facebook-f"></i>
@@ -73,6 +74,11 @@
 <style scoped lang="scss">
 
     @use '../style/partials/variables' as *;
+
+    .provaprova {
+        border: 1px solid;
+        background-color: gray;
+    }
 
     .line {
         border: 1px solid black;
