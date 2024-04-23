@@ -8,9 +8,9 @@
 <!-- 
         THE TRUSTED NAME
  -->
-    <div class="container">
-        <section class="row">
-            <div class="col ms-list d-flex justify-content-center">
+    <section class="first-section container">
+        <div class="row">
+            <div class="col-12 ms-list d-flex justify-content-between py-5">
                 <div class="ms-card-skills d-flex flex-column">
                     <img src="../assets/img/h5-custom-icon-1.png" alt="">
                     <p>Languages</p>
@@ -36,14 +36,13 @@
                     <p>DIY&Craft</p>
                 </div>
             </div>
-        
-            <div>
-                <h1>The Trusted Name for In-Home Tutoring</h1>
+            <div class="col-12 pt-5">
+                <h1>The Trusted Name <br> for In-Home Tutoring.</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid minima repellendus ad inventore ipsum veniam repellat numquam ex voluptas voluptatum nulla perspiciatis labore eos et, magnam sapiente libero distinctio ratione.</p>
                 <h5>LEARN MORE</h5>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
 
     <div class="container">
         <section class="row">
@@ -391,43 +390,55 @@
     
     @use '../style/partials/variables' as *;
 
+
+    section {
+
+        li {
+            list-style: none;
+        }
+    }    
 /*-----------------------------------------
 
             THE TRUSTED NAME
 
 -----------------------------------------*/
-    .ms-card-skills {
-        background-color: $color-blue-2;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 130px;
-        height: 160px;
-        border: 1px solid $color-grey-1;
-        margin-right: 20px;
+
+    .first-section {
         
-        img {
-            width: 50px;
+        .ms-card-skills {
+            background-color: $color-blue-2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 130px;
+            height: 160px;
+            border: 1px solid $color-grey-1;
+            
+            img {
+                width: 50px;
+            }
+            
+            p {
+                font-weight: 500;
+                padding-top: 20px;
+            }
+        }
+
+        h1 {
+            font-size: 45px;
         }
         
-        p {
-            font-weight: 500;
-            padding-top: 20px;
+        h5 {
+            color: $color-blue;
+            font-size: 15px;
+            font-weight: 700;
         }
+
     }
     
     .ms-list {
         div {
             padding: 0 20px;
-        }
-    }
-
-    section {
-        padding-top: 60px;
-        border: 1px solid;
-
-        li {
-            list-style: none;
         }
     }
 
