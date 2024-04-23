@@ -5,32 +5,35 @@
 </script>
 
 <template>
+<!-- 
+        THE TRUSTED NAME
+ -->
     <div class="container">
         <section class="row">
             <div class="col ms-list d-flex justify-content-center">
-                <div class="d-flex flex-column">
+                <div class="ms-card-skills d-flex flex-column">
                     <img src="../assets/img/h5-custom-icon-1.png" alt="">
-                    Languages
+                    <p>Languages</p>
                 </div>
-                <div class="d-flex flex-column">
+                <div class="ms-card-skills d-flex flex-column">
                     <img src="../assets/img/h5-custom-icon-2.png" alt="">
-                    Software
+                    <p>Software</p>
                 </div>
-                <div class="d-flex flex-column">
+                <div class="ms-card-skills d-flex flex-column">
                     <img src="../assets/img/h5-custom-icon-3.png" alt="">
-                    Business
+                    <p>Business</p>
                 </div>
-                <div class="d-flex flex-column">
+                <div class="ms-card-skills d-flex flex-column">
                     <img src="../assets/img/h5-custom-icon-4.png" alt="">
-                    Chemistry
+                    <p>Chemistry</p>
                 </div>
-                <div class="d-flex flex-column">
+                <div class="ms-card-skills d-flex flex-column">
                     <img src="../assets/img/h5-custom-icon-5.png" alt="">
-                    Science
+                    <p>Science</p>
                 </div>
-                <div class="d-flex flex-column">
+                <div class="ms-card-skills d-flex flex-column">
                     <img src="../assets/img/h5-custom-icon-6.png" alt="">
-                    DIY&Craft
+                    <p>DIY&Craft</p>
                 </div>
             </div>
         
@@ -388,6 +391,37 @@
     
     @use '../style/partials/variables' as *;
 
+/*-----------------------------------------
+
+            THE TRUSTED NAME
+
+-----------------------------------------*/
+    .ms-card-skills {
+        background-color: $color-blue-2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        height: 160px;
+        border: 1px solid $color-grey-1;
+        margin-right: 20px;
+        
+        img {
+            width: 50px;
+        }
+        
+        p {
+            font-weight: 500;
+            padding-top: 20px;
+        }
+    }
+    
+    .ms-list {
+        div {
+            padding: 0 20px;
+        }
+    }
+
     section {
         padding-top: 60px;
         border: 1px solid;
@@ -400,13 +434,6 @@
     a {
             text-decoration: none;
         }
-
-    .ms-list {
-
-        div {
-            padding: 0 20px;
-        }
-    }
 
     .ms-planisphere {
         background-image: url("../assets/img/h5-parallax-img-1.png");

@@ -57,34 +57,13 @@
         background-size: cover;
         background-repeat: no-repeat;
         height: 700px;
-/*--------------------------------
-
-            HERO
-
-------------------------------- */
-        .hero {
-            padding-top: 15%;
-            color: $color-white;
-
-            h1 {
-                font-size: 70px;
-            }
-        }
-
-        button {
-            &.ms-button-blue {
-                padding: 15px 40px;
-                background-color: $color-blue;
-                color: $color-white;
-                border-style: none;
-            }
-        }
-
+        
+        
         .ms-opacity-bg-image {
             background-color: $color-alpha-3;
             height: 100%;
         }
-        
+
         li {
             list-style: none;
             padding: 0 10px;
@@ -100,6 +79,26 @@
             color: $color-white;
         }
     }
+/*--------------------------------
 
+            HERO
 
+------------------------------- */
+        .hero {
+            padding-top: 15%;
+            color: $color-white;
+
+            h1 {
+                font-size: 70px;
+            }
+
+            button {
+                &.ms-button-blue {
+                    padding: 15px 40px;
+                    background-color: $color-blue;
+                    color: $color-white;
+                    border-style: none;
+                }
+            }   
+        }
 </style>
