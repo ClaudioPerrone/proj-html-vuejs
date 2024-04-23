@@ -108,7 +108,9 @@
  <!----------------------------------->
 
 <!-- 
-    THE TRUSTED NAME (4th SECTION)
+    LEARNING POSSIBILITIES (4th SECTION)
+
+    DONE
  -->
     <section class="fourth-section container py-5">
         <div class="row py-5">
@@ -122,7 +124,7 @@
                     <li><a href="#">Kwowledge Transfer</a></li>
                 </ul>
             </div>
-            <div class="col-8 ps-5">
+            <div class="col-8">
                 <h1 class="pt-4">Learning Possibilities</h1>
                 <p class="py-4">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos dolores velit eaque fuga culpa iure autem, unde facere modi, facilis, nemo eligendi voluptatum tempora. Nesciunt suscipit asperiores adipisci corrupti aliquam.
@@ -150,77 +152,87 @@
  <!----------------------------------->
 
 <!-- 
-    THE TRUSTED NAME (5th SECTION)
+    POPULAR ONLINE COURSES (5th SECTION)
+
+    DONE
  -->
-    <div class="container">
-        <section class="row">
-            <div>
-                <h1>Popular Online Courses</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officia rerum quaerat consequatur explicabo quo culpa totam beatae, nesciunt sequi deserunt, autem corrupti. Officiis, libero magni. Fuga ea aut dignissimos!</p>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="card col-4">
-                        <div>
-                            <img src="../assets/img/course-5-f-img.jpg" alt="">
+    <section class="ms-basic-bg fifth-section py-5">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="text-center p-5">
+                    <h1>Popular Online Courses</h1>
+                    <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officia rerum quaerat consequatur explicabo quo culpa totam beatae, nesciunt sequi deserunt, autem corrupti. Officiis, libero magni. Fuga ea aut dignissimos!</p>
+                </div>
+                <div class="container pb-5">
+                    <div class="row pb-5">
+                        <div class="col-4">
+                            <div class="card">
+                                <div>
+                                    <img src="../assets/img/course-5-f-img.jpg" alt="">
+                                </div>
+                                <div class="p-3">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5>Android Developer</h5>
+                                        <span class="badge rounded-pill ms-pill-bg-yellow mb-2">FREE</span>
+                                    </div>
+                                        <p>David Sanders</p>
+                                        <p class="ms-fs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, itaque. Earum dolorem optio natus pariatur aspernatur deleniti.</p>
+                                    <div class="d-flex">
+                                        <i class="fa-solid fa-user p-1"></i>
+                                        <p class="px-1">1</p>
+                                        <i class="fa-solid fa-tag p-1"></i>
+                                        <p class="px-1">PROGRAMMING</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="d-flex">
-                            <h5>Android Developer</h5>
-                            <button>FREE</button>
+                        <div class="col-4">
+                            <div class="card">
+                                <div>
+                                    <img src="../assets/img/course-6-f-img.jpg" alt="">
+                                </div>
+                                <div class="p-3">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5>Web Designing</h5>
+                                        <span class="badge rounded-pill ms-pill-bg-yellow mb-2">FREE</span>
+                                    </div>
+                                        <p>Jennifer Powell</p>
+                                        <p class="ms-fs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, itaque. Earum dolorem optio natus pariatur aspernatur deleniti.</p>
+                                    <div class="d-flex">
+                                        <i class="fa-solid fa-user p-1"></i>
+                                        <p class="px-1">1</p>
+                                        <i class="fa-solid fa-tag p-1"></i>
+                                        <p class="px-1">PROGRAMMING</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <p>David Sanders</p>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, itaque. Earum dolorem optio natus pariatur aspernatur deleniti numquam cumque voluptates omnis saepe, recusandae ea dicta, totam mollitia veritatis similique repudiandae.</p>
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <i class="fa-solid fa-user"></i>
-                            <p>1</p>
-                            <i class="fa-solid fa-tag"></i>
-                            <p>PROGRAMMING</p>
-                        </div>
-                    </div>
-                    <div class="card col-4">
-                        <div>
-                            <img src="../assets/img/course-6-f-img.jpg" alt="">
-                        </div>
-                        <div class="d-flex">
-                            <h5>Web Designing</h5>
-                            <button>FREE</button>
-                        </div>
-                        <p>Jennifer Powell</p>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, itaque. Earum dolorem optio natus pariatur aspernatur deleniti numquam cumque voluptates omnis saepe, recusandae ea dicta, totam mollitia veritatis similique repudiandae.</p>
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <i class="fa-solid fa-user"></i>
-                            <p>1</p>
-                            <i class="fa-solid fa-tag"></i>
-                            <p>PROGRAMMING</p>
-                        </div>
-                    </div>
-                    <div class="card col-4">
-                        <div>
-                            <img src="../assets/img/course-12-f-img.jpg" alt="">
-                        </div>
-                        <div class="d-flex">
-                            <h5>Financial Modelling</h5>
-                            <button>$20</button>
-                        </div>
-                        <p>Edward Bowman</p>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, itaque. Earum dolorem optio natus pariatur aspernatur deleniti numquam cumque voluptates omnis saepe, recusandae ea dicta, totam mollitia veritatis similique repudiandae.</p>
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <i class="fa-solid fa-user"></i>
-                            <p>1</p>
-                            <i class="fa-solid fa-tag"></i>
-                            <p>BUSINESS</p>
+                        <div class="col-4">
+                            <div class="card">
+                                <div>
+                                    <img src="../assets/img/course-12-f-img.jpg" alt="">
+                                </div>
+                                <div class="p-3">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5>Financial Modelling</h5>
+                                        <span class="badge rounded-pill ms-pill-bg-blue mb-2">$20</span>
+                                    </div>
+                                        <p>Edward Bowman</p>
+                                        <p class="ms-fs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, itaque. Earum dolorem optio natus pariatur aspernatur deleniti.</p>
+                                    <div class="d-flex">
+                                        <i class="fa-solid fa-user p-1"></i>
+                                        <p class="px-1">1</p>
+                                        <i class="fa-solid fa-tag p-1"></i>
+                                        <p class="px-1">BUSINESS</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>     
+    </section>
 
  <!----------------------------------->
 
@@ -435,6 +447,9 @@
         li {
             list-style: none;
         }
+        a {
+        text-decoration: none;
+        }
     }    
 /*-----------------------------------------
 
@@ -510,12 +525,11 @@
             background-position: top;
             height: 650px;
         }
-
         color: $color-white;
     }
 /*-----------------------------------------
 
-    JOAN COLLINS (3rd SECTION)
+    LEARNING POSSIBILITIES (4th SECTION)
 
 -----------------------------------------*/
     .fourth-section {
@@ -551,17 +565,43 @@
             width: 40%;
         }
     }
+/*-----------------------------------------
 
+    POPULAR ONLINE COURSES (5th SECTION)
 
-
-    .ms-list {
-        div {
-            padding: 0 20px;
+-----------------------------------------*/
+    .fifth-section {
+        h1 {
+            font-size: 60px;
         }
+        &.ms-basic-bg {
+            background-image: url("../assets/img/background-pattern.jpg");
+            background-repeat: no-repeat;
+        }
+        .card {
+            border: 1px solid $color-grey-1;
+            border-radius: 1px;
+            color: $color-grey-2;
+            h5 {
+                color: black;
+            }
+            img {
+                width: 100%;
+            }
+            .ms-pill-bg-blue {
+                background-color: $color-blue;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .ms-pill-bg-yellow {
+                background-color: $color-yellow;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .ms-fs {
+                font-size: 20px;
+            }
+        }
+
     }
-
-    a {
-            text-decoration: none;
-        }
-
 </style>
