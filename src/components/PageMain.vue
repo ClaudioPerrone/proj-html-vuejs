@@ -85,6 +85,8 @@
 
 <!-- 
     JOAN COLLINS (3rd SECTION)
+
+    DONE
  -->
     <section class="third-section ms-planisphere p-5">
         <div class="container">
@@ -108,37 +110,39 @@
 <!-- 
     THE TRUSTED NAME (4th SECTION)
  -->
-    <section class="container">
-        <div class="row">
+    <section class="fourth-section container py-5">
+        <div class="row py-5">
             <div class="col-4">
-                <ul class="ms-second-list">
-                    <li><a href="#"></a>What We Do</li>
-                    <li><a href="#"></a>Degree Programme</li>
-                    <li><a href="#"></a>Career Achievements</li>
-                    <li><a href="#"></a>Personal Management</li>
-                    <li><a href="#"></a>Steps To Success</li>
-                    <li><a href="#"></a>Kwowledge Transfer</li>
+                <ul class="ms-learning-list">
+                    <li><a href="#">What We Do</a></li>
+                    <li><a href="#">Degree Programme</a></li>
+                    <li><a href="#">Career Achievements</a></li>
+                    <li><a href="#">Personal Management</a></li>
+                    <li><a href="#">Steps To Success</a></li>
+                    <li><a href="#">Kwowledge Transfer</a></li>
                 </ul>
             </div>
-            <div class="col-8">
-                <h1>Learning Possibilities</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos dolores velit eaque fuga culpa iure autem, unde facere modi, facilis, nemo eligendi voluptatum tempora. Nesciunt suscipit asperiores adipisci corrupti aliquam.</p>
+            <div class="col-8 ps-5">
+                <h1 class="pt-4">Learning Possibilities</h1>
+                <p class="py-4">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos dolores velit eaque fuga culpa iure autem, unde facere modi, facilis, nemo eligendi voluptatum tempora. Nesciunt suscipit asperiores adipisci corrupti aliquam.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptas facere dignissimos eaque aperiam tempora, pariatur modi, ad nemo libero architecto adipisci similique perferendis optio ea rerum accusantium voluptate deleniti. 
+                </p>
                 <div class="container">
                     <div class="row">
-                        <div class="col-8">
+                        <div class="col-7">
                             <ul>
-                                <li><i class="fa-solid fa-check"></i>We enrich lives through learning,</li>
-                                <li><i class="fa-solid fa-check"></i>Maximising potenzial through individual attention.</li>
-                                <li><i class="fa-solid fa-check"></i>The trusted name for specialized training.</li>
-                                <li><i class="fa-solid fa-check"></i>People teach. People learn. This is where they connect.</li>
+                                <li class="ms-content pt-4">We enrich lives through learning,</li>
+                                <li class="ms-content pt-4">Maximising potenzial through individual attention.</li>
+                                <li class="ms-content pt-4">The trusted name for specialized training.</li>
+                                <li class="ms-content pt-4">People teach. People learn. This is where they connect.</li>
                             </ul>
                         </div>
-                        <div class="col-4">
+                        <div class="col-5 d-flex align-items-end">
                             <img src="../assets/img/h12-tabs-icon-1.png" alt="">
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -400,7 +404,7 @@
     THE TRUSTED NAME (7th SECTION)
  -->
     <div class="container">
-        <section class="row">
+        <div class="row">
             <div class="d-flex justify-content-between">
                 <div>
                     <img src="../assets/img/h5-client-5.png" alt="">
@@ -415,10 +419,12 @@
                     <img src="../assets/img/h5-client-1.png" alt="">
                 </div>
             </div>
-        </section>
+        </div>
     </div>
 
 </template>
+
+
 
 <style scoped lang="scss">
     
@@ -506,10 +512,48 @@
         }
 
         color: $color-white;
-
-
-
     }
+/*-----------------------------------------
+
+    JOAN COLLINS (3rd SECTION)
+
+-----------------------------------------*/
+    .fourth-section {
+        .ms-learning-list {
+            li {
+                border: 1px solid $color-grey-1;
+                padding: 30px 10px;
+                a {
+                    padding-left: 20px;
+                    color: $color-grey-2;
+                    font-weight: 600;
+                }
+            }            
+        }
+        p {
+            color: $color-grey-2;
+        }
+        li {
+            color: $color-grey-2;
+        }
+
+        .ms-content {
+            &:before {
+                font-family: "FontAwesome";
+                margin: 0 5px 0 -20px;
+                content: "\f00c";
+                color: $color-blue;
+            }
+            margin-left: -25px;
+        }
+
+        img {
+            width: 40%;
+        }
+    }
+
+
+
     .ms-list {
         div {
             padding: 0 20px;
