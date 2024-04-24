@@ -1,11 +1,11 @@
 <script>
-    import InfoList from './InfoListHeader.vue';
+    import InfoListHeader from './InfoListHeader.vue';
 
     export default {
         name: "PageHeader",
 
         components: {
-            InfoList
+            InfoListHeader
         },
 
         props: {
@@ -22,9 +22,8 @@
 
 <template>
     <header>
-        <InfoList></InfoList>
+        <InfoListHeader></InfoListHeader>
     </header>
-    
 <!--
     <header>
         <div class="ms-opacity-bg-image">

@@ -3,7 +3,7 @@
         name: 'InfoCardHeader',
 
         props: {
-            AllTheInfos: Object
+            AllTheInfosHeader: Object
         }
     }
 </script>
@@ -15,19 +15,18 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="d-flex justify-content-between pt-3">
-
                             <div>
-                                <a href=""><img :src=AllTheInfos.img></a>
+                                <a href=""><img :src=AllTheInfosHeader.img></a>
                                 <!-- <a href=""><img src="../assets/img/footer-logo-1.png" alt=""></a> -->
                             </div>
                             <nav class="pt-3">
                                 <ul class="d-flex">
-                                    <li><a href="#">{{ AllTheInfos.nav_1 }}</a></li>
-                                    <li><a href="#">{{ AllTheInfos.nav_2 }}</a></li>
-                                    <li><a href="#">{{ AllTheInfos.nav_3 }}</a></li>
-                                    <li><a href="#">{{ AllTheInfos.nav_4 }}</a></li>
-                                    <li><a href="#">{{ AllTheInfos.nav_5 }}</a></li>
-                                    <li><a href="#">{{ AllTheInfos.nav_6 }}</a></li>
+                                    <li><a href="#">{{ AllTheInfosHeader.nav_1 }}</a></li>
+                                    <li><a href="#">{{ AllTheInfosHeader.nav_2 }}</a></li>
+                                    <li><a href="#">{{ AllTheInfosHeader.nav_3 }}</a></li>
+                                    <li><a href="#">{{ AllTheInfosHeader.nav_4 }}</a></li>
+                                    <li><a href="#">{{ AllTheInfosHeader.nav_5 }}</a></li>
+                                    <li><a href="#">{{ AllTheInfosHeader.nav_6 }}</a></li>
 <!--                                     <li><a href="#">HOME</a></li>
                                     <li><a href="#">COURSES</a></li>
                                     <li><a href="#">INSTRUCTORS</a></li>
@@ -43,9 +42,7 @@
                                     <li><a href=""><i class="fa-solid fa-bars"></i></a></li>
                                 </ul>
                             </nav>
-                    
                         </div>
-
                         <div class="hero text-center">
                             <h1>Contemporary Ideas</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laboriosam magnam commodi ducimus assumenda dolorem ex quos fugiat nam quod quas consectetur, perferendis, non ipsum dolor repellat veritatis. Debitis, autem!</p>
@@ -53,7 +50,6 @@
                                 <button class="ms-button-blue ms-button-white">REGISTER NOW</button>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

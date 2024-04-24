@@ -16,13 +16,13 @@
 
 <template>
         
-        <PageHeader></PageHeader>
-    
-        <main>
-            <PageMain></PageMain>
-        </main>
-    
-        <PageFooter></PageFooter>
+    <PageHeader></PageHeader>
+
+    <main>
+        <PageMain></PageMain>
+    </main>
+
+    <PageFooter></PageFooter>
 
 </template>
 
