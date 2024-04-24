@@ -475,6 +475,7 @@
             width: 200px;
             height: 260px;
             border: 1px solid $color-grey-1;
+            margin: 0 15px;
             
             img {
                 width: 70px;
