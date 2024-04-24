@@ -1,10 +1,31 @@
 <script>
+    import InfoList from './InfoListHeader.vue';
+
     export default {
-        name: "PageHeader"
+        name: "PageHeader",
+
+        components: {
+            InfoList
+        },
+
+        props: {
+            img: String,
+            nav_1: String,
+            nav_2: String,
+            nav_3: String,
+            nav_4: String,
+            nav_5: String,
+            nav_6: String
+        }
     }
 </script>
 
 <template>
+    <header>
+        <InfoList></InfoList>
+    </header>
+    
+<!--
     <header>
         <div class="ms-opacity-bg-image">
             <div class="container">
@@ -12,7 +33,7 @@
                     <div class="col-12">
                         <div class="d-flex justify-content-between pt-3">
                             <div>
-                                <a href=""><img src="../assets/img/footer-logo-1.png" alt=""></a>
+                                <a href=""><InfoList></InfoList></a>
                             </div>
                             <nav class="pt-3">
                                 <ul class="d-flex">
@@ -37,7 +58,7 @@
                             <h1>Contemporary Ideas</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laboriosam magnam commodi ducimus assumenda dolorem ex quos fugiat nam quod quas consectetur, perferendis, non ipsum dolor repellat veritatis. Debitis, autem!</p>
                             <div class="d-flex justify-content-center">
-                                <button class="ms-button-blue"><a href="">REGISTER NOW</a></button>
+                                <button class="ms-button-blue ms-button-white">REGISTER NOW</button>
                             </div>
                         </div>
                     </div>
@@ -45,60 +66,5 @@
             </div>
         </div>    
     </header>
+-->
 </template>
-
-<style scoped lang="scss">
-
-    @use '../style/partials/variables' as *;
-
-    header {
-        background-image: url("../assets/img/course-9-f-img.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 700px;
-        
-        
-        .ms-opacity-bg-image {
-            background-color: $color-alpha-3;
-            height: 100%;
-        }
-
-        li {
-            list-style: none;
-            padding: 0 10px;
-            
-            a {
-            text-decoration: none;
-            color: $color-white;
-        }
-        }
-        
-        a {
-            text-decoration: none;
-            color: $color-white;
-        }
-    }
-/*--------------------------------
-
-            HERO
-
-------------------------------- */
-        .hero {
-            padding-top: 15%;
-            color: $color-white;
-
-            h1 {
-                font-size: 70px;
-            }
-
-            button {
-                &.ms-button-blue {
-                    padding: 15px 40px;
-                    background-color: $color-blue;
-                    color: $color-white;
-                    border-style: none;
-                }
-            }   
-        }
-</style>

@@ -238,6 +238,8 @@
 
 <!-- 
     THE TRUSTED NAME (6th SECTION)
+
+    DONE
  -->
     <section class="sixth-section">
         <div class="container">
@@ -417,7 +419,7 @@
 <!-- 
     THE TRUSTED NAME (7th SECTION)
 
-    DONE -------DA PUSHARE-------
+    DONE
  -->
     <section class="seventh-section py-5">
         <div class="container py-5">
@@ -470,24 +472,30 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 130px;
-            height: 160px;
+            width: 200px;
+            height: 260px;
             border: 1px solid $color-grey-1;
             
             img {
-                width: 50px;
+                width: 70px;
             }
             p {
                 font-weight: 500;
+                font-size: larger;
                 padding-top: 20px;
             }
         }
+
+        p {
+            font-size: 20px;
+        }
+
         h1 {
-            font-size: 45px;
+            font-size: 50px;
         }
         h5 {
             color: $color-blue;
-            font-size: 15px;
+            font-size: 20px;
             font-weight: 700;
         }
     }
