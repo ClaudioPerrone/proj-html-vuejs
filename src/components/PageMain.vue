@@ -242,174 +242,172 @@
     <section class="sixth-section">
         <div class="container">
             <div class="row">
-                <div class="col-12 d-flex justify-content-center">
-                    <table>
-                        <thead>
-                            <tr>
-                                <td>
-                                    <div>
-                                        <h2>Save up to 40% <br> by paying <br> weekly</h2>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div>
-                                        <img src="../assets/img/h5-custom-icon-7.png" alt="">
-                                        <h2>Standard</h2>
-                                        <h2>$12</h2>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div>
-                                        <img src="../assets/img/h5-custom-icon-8.png" alt="">
-                                        <h2>Professional</h2>
-                                        <h2>$59</h2>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div>
-                                        <img src="../assets/img/h5-custom-icon-9.png" alt="">
-                                        <h2>Advanced</h2>
-                                        <h2>$88</h2>
-                                    </div>
-                                </td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    Numbers of Courses
-                                </td>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    4
-                                </td>
-                            </tr>
-            
-                            <tr>
-                                <td>
-                                    Time
-                                </td>
-                                <td>
-                                    15 Days
-                                </td>
-                                <td>
-                                    30 Days
-                                </td>
-                                <td>
-                                    30 Days
-                                </td>
-                            </tr>
-            
-                            <tr>
-                                <td>
-                                    Web Designing
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-check"></i>
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-check"></i>
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-check"></i>
-                                </td>
-                            </tr>
-            
-                            <tr>
-                                <td>
-                                    Human-Centered Design
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-check"></i>
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-check"></i>
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-check"></i>
-                                </td>
-                            </tr>
-            
-                            <tr>
-                                <td>
-                                    Basic Marketing
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-xmark"></i>
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-check"></i>
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-check"></i>
-                                </td>
-                            </tr>
-            
-                            <tr>
-                                <td>
-                                    Python for Everybody
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-xmark"></i>
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-check"></i>
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-check"></i>
-                                </td>
-                            </tr>
-            
-                            <tr>
-                                <td>
-                                    Android Developer
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-xmark"></i>
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-check"></i>
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-check"></i>
-                                </td>
-                            </tr>
-            
-                            <tr>
-                                <td>
-                                    Business English
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-xmark"></i>
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-xmark"></i>
-                                </td>
-                                <td>
-                                    <i class="fa-solid fa-check"></i>
-                                </td>
-                            </tr>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>
+                                <div>
+                                    <h2>Save up to 40% <br> by paying <br> weekly</h2>
+                                </div>
+                            </td>
+                            <td class="ms-bg-table text-center">
+                                <div>
+                                    <img src="../assets/img/h5-custom-icon-7.png" alt="">
+                                    <h4>Standard</h4>
+                                    <h4>$12</h4>
+                                </div>
+                            </td>
+                            <td class="ms-bg-table text-center">
+                                <div>
+                                    <img src="../assets/img/h5-custom-icon-8.png" alt="">
+                                    <h4>Professional</h4>
+                                    <h4>$59</h4>
+                                </div>
+                            </td>
+                            <td class="ms-bg-table text-center">
+                                <div>
+                                    <img src="../assets/img/h5-custom-icon-9.png" alt="">
+                                    <h4>Advanced</h4>
+                                    <h4>$88</h4>
+                                </div>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Numbers of Courses
+                            </td>
+                            <td class="text-center">
+                                2
+                            </td>
+                            <td class="text-center">
+                                2
+                            </td>
+                            <td class="text-center">
+                                4
+                            </td>
+                        </tr>
         
-                            <tr>
-                                <td></td>
-                                <td>
-                                    <button><a href="#">GET IT NOW</a></button>
-                                </td>
-                                <td>
-                                    <button><a href="#">GET IT NOW</a></button>
-                                </td>
-                                <td>
-                                    <button><a href="#">GET IT NOW</a></button>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                        <tr>
+                            <td>
+                                Time
+                            </td>
+                            <td class="text-center">
+                                15 Days
+                            </td>
+                            <td class="text-center">
+                                30 Days
+                            </td>
+                            <td class="text-center">
+                                30 Days
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td>
+                                Web Designing
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-check"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-check"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-check"></i>
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td>
+                                Human-Centered Design
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-check"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-check"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-check"></i>
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td>
+                                Basic Marketing
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-xmark"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-check"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-check"></i>
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td>
+                                Python for Everybody
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-xmark"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-check"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-check"></i>
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td>
+                                Android Developer
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-xmark"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-check"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-check"></i>
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td>
+                                Business English
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-xmark"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-xmark"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fa-solid fa-check"></i>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td></td>
+                            <td class="ms-bg-table text-center">
+                                <button class="ms-button-white ms-button-blue">GET IT NOW</button>
+                            </td>
+                            <td class="ms-bg-table text-center">
+                                <button class="ms-button-white ms-button-blue">GET IT NOW</button>
+                            </td>
+                            <td class="ms-bg-table text-center">
+                                <button class="ms-button-white ms-button-blue">GET IT NOW</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
@@ -620,10 +618,33 @@
 
 -----------------------------------------*/
     .sixth-section {
+        .ms-bg-table{
+            background-color: $color-blue-2;
+        }
         td {
             padding: 20px;
             border: 1px solid $color-grey-1;
         }
+        a{
+            color: white;
+        }
+
+        button {
+            &:hover.ms-button-blue {
+                padding: 15px 40px;
+                background-color: $color-blue;
+                color: $color-white;
+                border: 2px solid $color-grey-1;
+                font-weight: 700;
+            }
+            &.ms-button-white {
+                padding: 15px 40px;
+                background-color: $color-white;
+                color: $color-grey-2;
+                border: 2px solid $color-grey-1;
+                font-weight: 700;
+            }
+        } 
     }
 /*-----------------------------------------
 
@@ -633,5 +654,4 @@
     .seventh-section {
 
     }
-
 </style>
